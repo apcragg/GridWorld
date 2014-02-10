@@ -22,7 +22,12 @@ public class SpeedyBug extends Bug
 	public SpeedyBug(Color color)
 	{
 		super(color);
-		setDirection((int) Math.floor((Math.random() * 359.99f)) % 90);
+		
+		int rand = (int) Math.floor((Math.random() * 359.99f)) / 90;
+		
+		System.out.println(rand * 90);
+		
+		setDirection(rand * 90);
 	}
 	
 	public void act()
