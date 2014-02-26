@@ -67,9 +67,7 @@ public class CharismaCritter extends Critter
 	 }
 	 
 	 private Color lighten(Color c)
-	 {
-		 System.out.println("IT BURNSSS uSSS");
-		 
+	 { 
 		 int r = (int) (c.getRed() / .9f);
 		 int g = (int) (c.getGreen() / .9f);
 		 int b = (int) (c.getBlue() / .9f);
