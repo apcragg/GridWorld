@@ -8,7 +8,6 @@ import info.gridworld.grid.Location;
 import java.awt.Color;
 import java.util.ArrayList;
 
-
 /*
  * Author:       Andrew Cragg
  * Date Created: Feb 24, 2014
